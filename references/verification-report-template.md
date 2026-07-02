@@ -13,14 +13,24 @@ reports/verification/
 文件名格式：
 
 ```text
-YYYYMMDD-HHMM-<阶段ID>-<模块ID>-verification.md
+phase<阶段编号>_task<任务编号>_<模块名>_verify.md
 ```
 
 示例：
 
 ```text
-20260702-1530-stage-01-input-loader-verification.md
+phase1_task1_excel_faq_reader_verify.md
+phase1_task3.5_es_setup_verify.md
+phase1_task12_eval_160_verify.md
 ```
+
+命名规则说明：
+
+- `phase<阶段编号>` 对应阶段计划中的阶段，例如 `phase1`。
+- `task<任务编号>` 对应进度追踪文件中的任务顺序，例如 `task1`、`task12`。
+- 支持小数任务号，用于插入补充任务，例如 `task3.5`。
+- `<模块名>` 使用模块名或验证对象名，建议使用小写字母、数字和下划线。
+- 统一以 `_verify.md` 结尾。
 
 ## 状态值
 
