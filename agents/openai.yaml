@@ -1,0 +1,4 @@
+interface:
+  display_name: "Phased Verified Development"
+  short_description: "Stage-gated AI development with verification reports."
+  default_prompt: "Use $phased-verified-development to run this project with design-first planning, module verification reports, and user confirmation before continuing."
